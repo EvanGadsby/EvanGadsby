@@ -1,0 +1,165 @@
+nav p a[href*="courses"] {
+    font-size: 2em;
+    color:deeppink; 
+     
+    
+}
+
+.spacer{
+    border: 1px solid black;
+    padding: 3px;
+    
+}
+.topline{
+    text-align: center;
+}
+
+
+
+#chartwide{
+    width: 100%;
+}
+
+.chart{
+    font-weight: 300;
+}
+
+/*
+body {
+    font-size: 1.1em;
+    margin: 0px;
+    background-color: #fff5de;
+}
+*/
+
+article::first-letter {
+    color: crimson;
+    font-size: x-large;
+}
+
+div:hover .popup {
+    display: block;
+}
+
+.popup {
+    display: none;
+    padding: 10px;
+}
+
+
+header~p{
+    font-style: oblique
+}
+
+tr:nth-child(even)
+{
+    color: firebrick;
+}
+
+tr:nth-child(odd)
+{
+    color:darkblue;
+}
+
+.align {
+    float: left;
+}
+
+table, th, tr {
+    border: 1px solid;
+}
+
+.firstbox {
+    background-color: ghostwhite;
+    margin: 0px;
+    width: 90%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.secondbox {
+    background-color: ghostwhite;
+    margin: 20px;
+    overflow: hidden;
+      width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdbox {
+     background-color: ghostwhite;
+    margin: 20px;
+      width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourthbox {
+     background-color: ghostwhite;
+    margin: 20px;
+     overflow: hidden;
+      width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 830px)
+{
+     body{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+       position: relative;
+    right: 0px;
+    top: 0;
+    font-size: 15px;
+    padding-right: 10px;
+        float: right;
+    }
+    .firstbox, .secondbox, .thirdbox, .fourthbox {
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 46%;
+        margin: 5px;
+        overflow: hidden;
+        border: 1px solid black;
+        padding: 3px;
+
+        
+    
+    }
+    .firstbox, .thirdbox {
+        float: left;
+    }
+    .nav {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.submenu{
+    font-size: 1em;
+    padding: 0px;
+}
+
+.center{
+    text-align: center;
+}
+@media screen and (max-width: 831px)
+{
+    .firstbox, .secondbox, .thirdbox, .fourthbox{
+        width: 95%;
+    }
+    
+}
+
+
+
+

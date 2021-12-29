@@ -1,0 +1,161 @@
+
+figure  {
+    display: flex;
+    justify-content: center
+}
+.spacer{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+img[title*="star"] {
+    border: 5px solid;
+    border-color: black;
+    padding-right: 70px;
+    padding-left: 70px;
+    
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.topofpage{
+    padding-left: 10px;
+}
+    
+    
+
+
+
+
+
+label  {
+    display: block;
+}
+
+.align {
+    float: left;
+}
+
+h1 {
+    background-color:  #defff8;
+}
+.firstbox {
+    background-color: ghostwhite;
+    margin: 20px;
+    display: block;
+    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.secondbox {
+    background-color: ghostwhite;
+    margin: 20px;
+    
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.thirdbox {
+     background-color: ghostwhite;
+    margin: 20px;
+    
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fourthbox {
+     background-color: ghostwhite;
+    
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+nav p a[href*="contact"] {
+    font-size: 2em;
+    color:deeppink; 
+    
+}
+
+
+
+@media screen and (min-width: 830px)
+{
+    .firstbox, .secondbox {
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 46%;
+        margin: 5px;
+        overflow: hidden;
+        border: 1px solid black;
+        padding: 3px;
+        height: 200px;
+        text-align: center;
+        
+
+    }
+    body{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+       position: relative;
+    right: 0px;
+    top: 0;
+    font-size: 15px;
+    padding-right: 10px;
+        float: right;
+    }
+    
+   
+    
+    .inputs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        
+        
+    }
+    
+
+    .firstbox {
+        float: left;
+
+
+    }
+    .thirdbox, .fourthbox{
+        width: 97%;
+        border: 1px solid black;
+        
+    }
+    }
+    
+
+}
+@media screen and (max-width: 831px)
+{
+    .firstbox, .secondbox, .thirdbox, .fourthbox{
+        width: 10%;
+    }
+    
+}
+
+
+
+
+
